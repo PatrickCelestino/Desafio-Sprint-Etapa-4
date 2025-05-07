@@ -1,7 +1,7 @@
  /* Cores utilizadas no projeto #1b357e; #1351d8; */
 
  /* Fonte definida para o projeto */ 
-    body {
+ body {
     font-family: 'Ford';
 }
  /* Cabecalho do site */
@@ -15,16 +15,13 @@
      justify-content: space-between;
      align-items: center;
      background-color: #1b357e;
-     padding: 0% 0.5%;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
+     padding: 0% 1%;
 }
 /* Logo Ford do cabecalho */
  .logo-ford {   
      background-color: #ffffff;
      display: flex;
-     width: 10%;  
+     width: 10%;
 }
  * {margin: 0;
     padding: 0;
@@ -57,17 +54,8 @@
  .menu-de-navegacao {
     width: 80%;
 }
- /* Conteudo principal */
-    main {
-    display: flex;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    margin: 2% 0%;
-}
 .principal img {
-    border-radius: 40px; /* Arredonda as bordas com um raio de 40 pixels */
-    transition: 0.5s;
+    transition: 1s;
 }
 .principal img:hover {
     transform: scale(1.05);
@@ -75,6 +63,7 @@
 }
  /* Rodape de redes sociais */
  .redes-sociais {
+      
      display: flex;
      justify-content: left;
      color: #ffffff;
@@ -83,13 +72,8 @@
 .logo-ford-rodape {
     display: flex;
     justify-content: right;
-    align-items: flex-start;
-    padding: 1.1%; 
-    color: #ffffff; 
-}
-.logo-ford-rodape img {
-    width: 100%;
-    padding: 0% 2%;
+    align-items: center;
+    padding: 1.1%;
 }
 .redes-sociais img {
     margin: 0% 2%;
@@ -97,4 +81,26 @@
 .redes-sociais img:hover {
     transform: scale(1.2);
     transition: 0.2s;
+}
+.video {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}    
+.carros-lançamento {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2%;
+padding: 2%;
+}
+.carros-lançamento img {
+width: 15em;
+transition: 0.2s;
+}
+.carros-lançamento img:hover {
+transform: scale(1.2);
+transition: 0.2s;
 }
