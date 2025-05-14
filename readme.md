@@ -1,1 +1,1 @@
-*projeto Cimatec Front-end*
+*projeto Cimatec Front-end (HTML/CSS)*
