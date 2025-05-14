@@ -19,9 +19,10 @@
      position: fixed;
      bottom: 0;
      width: 100%;
+     height: 7%;
 }
 /* Logo Ford do cabecalho */
- .logo-ford {   
+    .logo-ford {   
      background-color: #ffffff;
      display: flex;
      width: 10%;  
@@ -29,11 +30,11 @@
  * {margin: 0;
     padding: 0;
 }
- .logo-ford img {
+    .logo-ford img {
      width: 100%;
 }
  /* Menu de navegacao do cabecalho */
- .menu-de-navegacao {
+    .menu-de-navegacao {
      background-color: #ffffff; 
      color:#1b357e;
      display: flex;
@@ -41,20 +42,20 @@
      align-items: center;
      justify-content: center;
 }
-    nav ul {
+    nav  {
     display: flex;
     list-style: none;
 }
-    nav ul a{
+    nav a{
     text-decoration: none;
     color: #1b357e;
     font-weight: bold;
 }
  /* Definindo espacamento entre os links */
- .menu-de-navegacao a {
+    .menu-de-navegacao a {
      margin: 10px;
 }
- .menu-de-navegacao {
+    .menu-de-navegacao {
     width: 80%;
 }
  /* Conteudo principal */
@@ -65,36 +66,37 @@
     justify-content: center;
     margin: 2% 0%;
 }
-.principal img {
+    .principal img {
     border-radius: 40px; /* Arredonda as bordas com um raio de 40 pixels */
     transition: 0.5s;
 }
-.principal img:hover {
-    transform: scale(1.05);
+    .principal img:hover {
+    transform: scale(1.02);
     transition: 1s;
 }
  /* Rodape de redes sociais */
- .redes-sociais {
+    .redes-sociais {
      display: flex;
      justify-content: left;
      color: #ffffff;
      align-items: center;
 }
-.logo-ford-rodape {
+    .logo-ford-rodape {
     display: flex;
     justify-content: right;
     align-items: flex-start;
     padding: 1.1%; 
     color: #ffffff; 
 }
-.logo-ford-rodape img {
+    .logo-ford-rodape img {
     width: 100%;
     padding: 0% 2%;
 }
-.redes-sociais img {
+    .redes-sociais img {
     margin: 0% 2%;
 }
-.redes-sociais img:hover {
+    .redes-sociais img:hover {
     transform: scale(1.2);
     transition: 0.2s;
 }
+ 

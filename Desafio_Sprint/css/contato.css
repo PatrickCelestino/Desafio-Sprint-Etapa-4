@@ -1,7 +1,7 @@
  /* Cores utilizadas no projeto #1b357e; #1351d8; */
 
  /* Fonte definida para o projeto */ 
-    body {
+ body {
     font-family: 'Ford';
     margin: 0;
     padding: 0;
@@ -55,11 +55,11 @@
      align-items: center;
      justify-content: center;
 }
-    nav  {
+    nav {
     display: flex;
     list-style: none;
 }
-    nav a{
+    nav a {
     text-decoration: none;
     color: #1b357e;
     font-weight: bold;
@@ -71,16 +71,15 @@
     .menu-de-navegacao {
     width: 80%;
 }
-    .principal img {
-    transition: 1s;
-}
-    .principal img:hover {
-    transform: scale(1.05);
-    transition: 1s;
-}
+/* Conteudo principal */
+    .principal{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10%;
+    }
  /* Rodape de redes sociais */
     .redes-sociais {
-      
      display: flex;
      justify-content: left;
      color: #ffffff;
@@ -100,55 +99,5 @@
     transform: scale(1.2);
     transition: 0.2s;
 }
-    .video {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-}      
-    .carros-lançamento {
-    width: 19%;
-    height: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #1b357e;
-    
-}
-    .carros-lançamento img {
-    transition: 0.2s;
-}
-    .carros-lançamento img:hover {
-    transform: scale(1.01);
-    transition: 0.2s;
-}
-    .botao-comparar-carros {
-    background-color:  #1b357e; 
-    border: none; 
-    color: white; 
-    padding: 10px 10px;
-    cursor: pointer; 
-    border-radius: 4px; 
-    width: 12%;
-}
-    .botao-comparar-carros:hover {
-    background-color: #1351d8;
-    transition: 0.5s;
-}
-    .ajuste-dimensao {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 1%;
-}
-    .botao-comparar-ajuste {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-    input[type="checkbox"]  {
-        transform: scale(1.9);
-        margin-right: 8px;
-}
+
+
