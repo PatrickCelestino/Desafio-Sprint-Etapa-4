@@ -1,7 +1,7 @@
- /* Cores utilizadas no projeto #1b357e; #1351d8; */
+/* Cores utilizadas no projeto #1b357e; #1351d8; */
 
  /* Fonte definida para o projeto */ 
-    body {
+ body {
     font-family: 'Ford';
     margin: 0;
     padding: 0;
@@ -125,6 +125,10 @@
     transform: scale(1.01);
     transition: 0.2s;
 }
+
+    .botao-comparar {
+    width: 110%;
+}
     .botao-comparar-carros {
     background-color:  #1b357e; 
     border: none; 
@@ -143,6 +147,7 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 1%;
+    margin-bottom: 0.1%;
 }
     .botao-comparar-ajuste {
     display: flex;
@@ -153,4 +158,135 @@
     input[type="checkbox"]  {
         transform: scale(1.9);
         margin-right: 8px;
+}
+/* RESPONSIVIDADE /
+/* Dispositivos muito pequenos (ex: celulares antigos, 320px+) */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-ford {
+        width: 60%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .menu-de-navegacao {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .ajuste-dimensao {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .carros-lançamento {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .botao-comparar-carros {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .video iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .redes-sociais {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .logo-ford-rodape img {
+        width: 60px;
+    }
+}
+
+/* Tablets (481px - 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo-ford {
+        width: 30%;
+        justify-content: center;
+    }
+
+    .menu-de-navegacao {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .ajuste-dimensao {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .carros-lançamento {
+        width: 50%;
+        max-width: 300px;
+    }
+
+    .botao-comparar-carros {
+        width: 70%;
+    }
+
+    
+
+    .video iframe {
+        width: 90%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem;
+        gap: 1rem;
+    }
+}
+
+/* Desktop (acima de 1024px) */
+@media (min-width: 1025px) {
+    .ajuste-dimensao {
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .carros-lançamento {
+        width: 300px;
+    }
+
+    .video iframe {
+        max-width: 900px;
+    }
+
+    .botao-comparar-carros {
+        width: 300px;
+    }
 }
